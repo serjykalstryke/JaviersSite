@@ -1,9 +1,6 @@
 import React from "react";
 
-import { Row } from "react-bootstrap";
-
 import HeroText from "./HeroText";
-import Excursions from "./Excursions";
 
 import "../index.css";
 
