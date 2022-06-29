@@ -403,6 +403,7 @@ p {
       left: 20rem;
       height: 18rem;
     }
+
     .box-shadow {
       display: none;
     }
@@ -552,7 +553,7 @@ p {
       font-size: 0.5em;
       top: 1rem;
       left: 20rem;
-      height: 18rem;
+      height: 19rem;
     }
     .box-shadow {
       display: none;
@@ -630,6 +631,10 @@ p {
 
   .button {
     display: none;
+  }
+
+  .contactButton {
+    margin-top: 0px;
   }
 
   .box-shadow {
@@ -724,15 +729,15 @@ p {
 @media only screen and (max-width: 699px) {
   .heroText {
     position: absolute;
-    height: 12rem;
     top: 0.5rem;
     left: 3rem;
-    height: 10rem;
+    height: 14rem;
     animation: none;
     overflow: hidden;
+    overflow-y: auto;
   }
   .hero {
-    height: 30vh;
+    height: 35vh;
     width: 100%;
     display: block;
   }
@@ -749,7 +754,7 @@ p {
     text-align: justify;
   }
   .heroParagraph {
-    font-size: 11px;
+    font-size: 10px;
     text-align: justify;
   }
   .paragraph {
@@ -775,8 +780,8 @@ p {
     font-size: 20px;
   }
 
-  .button {
-    display: none;
+  .contactButton {
+    font-size: 10px;
   }
 
   .box-shadow {

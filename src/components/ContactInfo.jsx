@@ -6,19 +6,35 @@ export const ContactInfo = () => {
     <Fragment>
       <Card>
         <Button
-          href="mailto:davidstinnett@icloud.com"
+          href="mailto:javierwebster@hotmail.com"
           variant="outline-light"
           style={{ backgroundColor: "rgba(209,104,119,255)" }}
         >
-          Email: davidstinnett@icloud.com
+          Email: javierwebster@hotmail.com
         </Button>
 
         <Button
-          href="tel:+18049721754"
+          href="tel:+50489187136"
           variant="outline-light"
           style={{ backgroundColor: "rgba(209,104,119,255)" }}
         >
-          Phone: 804.972.1754
+          Phone: 504.891.7136
+        </Button>
+        <Button
+          href="https://www.tripadvisor.com/Profile/JayTours21"
+          variant="outline-light"
+          style={{ backgroundColor: "rgba(209,104,119,255)" }}
+          target="_blank"
+        >
+          TripAdvisor
+        </Button>
+        <Button
+          href="https://www.facebook.com/JayTours21/"
+          variant="outline-light"
+          style={{ backgroundColor: "rgba(209,104,119,255)" }}
+          target="_blank"
+        >
+          Facebook
         </Button>
       </Card>
     </Fragment>
