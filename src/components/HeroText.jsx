@@ -1,13 +1,12 @@
 import React from "react";
 
-import Button from "./Button";
+import ExcursionButton from "./ExcursionButton";
 
 import { Row } from "react-bootstrap";
-import Excursions from "./Excursions";
 
 const HeroText = () => {
   return (
-    <div>
+    <div className="buttonContainer">
       <Row>
         <div className="container">
           <div className="box-shadow2"></div>
@@ -17,10 +16,16 @@ const HeroText = () => {
             <div className="heroLine" />
             <section className="paragraph heroParagraph">
               <p className="heroParagraph">
-                I am blessed to live in a tropical paradise and it would be my pleasure to share this with you! Whether you want a relaxing day on the beach, to enjoy a friendly atmosphere on an island bar, or an adventure in the jungle, I can help make your vacation magical!
+                Receive a warm welcome while exploring our website and offering
+                you the best in tours and cruise ship shore excursions in the
+                beautiful Bay Island of Roatan, Honduras. Roatan Jay's Roatan
+                Tours will provide you with an exceptional Roatan excursion with
+                fun and excitement in each adventure.Choose from a wide range of
+                activities that will richly color your vacation and give you a
+                time to remember.
               </p>
             </section>
-            <Button />
+            <ExcursionButton />
           </main>
         </div>
       </Row>
