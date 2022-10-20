@@ -14,11 +14,11 @@ export const ContactInfo = () => {
         </Button>
 
         <Button
-          href="tel:+50489187136"
+          href="tel:+50489743396"
           variant="outline-light"
           style={{ backgroundColor: "rgba(209,104,119,255)" }}
         >
-          Phone: 504.891.7136
+          Phone: 50489-7433-96
         </Button>
         <Button
           href="https://www.tripadvisor.com/Profile/JayTours21"
